@@ -1,10 +1,9 @@
-// require fs
 var fs = require("fs");
 
 module.exports = BasicCard;
 
-// constructor for BasicFlashcard
-function BasicFlashcard(front, back) {
+// constructor 
+function BasicCard(front, back) {
     this.front = front;
     this.back = back;
     this.create = function() {
@@ -16,7 +15,7 @@ function BasicFlashcard(front, back) {
         };
         // add card to log.txt
         fs.appendFile("log.txt", JSON.stringify(data) + ';', "utf8", function(error) {
-            // if there is an error, log the error
+            //log the error if there is one
             if (error) {
                 console.log(error);
             }
