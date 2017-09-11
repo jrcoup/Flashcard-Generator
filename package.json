@@ -1,0 +1,26 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "flash card homework",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrcoup/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flash",
+    "card",
+    "generator"
+  ],
+  "author": "JrCoup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrcoup/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/jrcoup/Flashcard-Generator#readme"
+}
